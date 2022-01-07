@@ -34,13 +34,13 @@ class HeaderWithSearchBox extends StatelessWidget {
                 )),
             child: Row(
               children: <Widget>[
-                Text("kkk",
+                Text("Xin chào! Beny",
                     style: Theme.of(context).textTheme.headline5?.copyWith(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                         )),
                 Spacer(),
-                Image.asset("assets/images/logo.png")
+                Image.asset("assets/images/logoandroid.png")
               ],
             ),
           ),
@@ -73,7 +73,7 @@ class HeaderWithSearchBox extends StatelessWidget {
                       child: TextField(
                         onChanged: (value) {},
                         decoration: InputDecoration(
-                          hintText: "Search",
+                          hintText: "Tìm kiếm",
                           hintStyle:
                               TextStyle(color: kPrimaryColor.withOpacity(0.5)),
                           enabledBorder: InputBorder

@@ -10,6 +10,7 @@ class TitleWithMoreBtn extends StatelessWidget {
   }) : super(key: key);
   final String title;
   final VoidCallback press;
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -24,7 +25,7 @@ class TitleWithMoreBtn extends StatelessWidget {
             color: Colors.green,
             onPressed: press,
             child: Text(
-              'More',
+              'Tất cả',
               style:
                   TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
             ),
@@ -52,7 +53,7 @@ class TitleWithCustomUnderline extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: kDefaultPadding / 4),
             child: Text(
-              "hahaha",
+              text,
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
           ),
